@@ -18,12 +18,12 @@ sudo ./ti_cgt_pru_2.3.3_armlinuxa8hf_busybox_installer.sh
 ## compile
 cd PRU_gpioToggle/
 make
-cp PRU_gpioToggle.out /lib/firmware
 
-## config the pin as output
+## config the pin as PRU output
 config-pin P1_36 pruout
 
 ## load
+cp gen/PRU_gpioToggle.out /lib/firmware
 echo "PRU_gpioToggle.out" > /sys/class/remoteproc/remoteproc1/firmware
 echo "start" > /sys/class/remoteproc/remoteproc1/state
 echo "stop" > /sys/class/remoteproc/remoteproc1/state

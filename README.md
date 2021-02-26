@@ -6,10 +6,12 @@ https://software-dl.ti.com/codegen/esd/cgt_public_sw/PRU/2.3.3/ti_cgt_pru_2.3.3_
 
 ## Usage
 
+verify the ip address of your board (by default it is 192.168.6.2
+
 ```bash
-# copy
+## copy
 scp -r PRU_gpioToggle debian@192.168.6.2:
-scp -r ti_cgt_pru_2.3.3_armlinuxa8hf_busybox_installer.sh  debian@192.168.6.2:
+scp ti_cgt_pru_2.3.3_armlinuxa8hf_busybox_installer.sh debian@192.168.6.2:
 
 ## install ti_cgt_pru to your PB
 chmod a+x ti_cgt_pru_2.3.3_armlinuxa8hf_busybox_installer.sh

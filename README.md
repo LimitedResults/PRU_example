@@ -9,7 +9,7 @@ https://www.ti.com/tool/PRU-CGT
 
 ## Usage
 
-verify the ip address of your board (by default it is 192.168.6.2
+verify the ip address of your board (by default it is 192.168.6.2)
 
 ```bash
 ## copy into the Beagle

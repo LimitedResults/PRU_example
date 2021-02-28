@@ -1,5 +1,5 @@
 # PRU_example
-simplest example for programming PRU on PocketBeagle (Linux beaglebone 4.19.94-ti-r42 #1buster)
+Simplest example for programming PRU on PocketBeagle (Linux beaglebone 4.19.94-ti-r42 #1buster)
 
 ## Installation
 https://software-dl.ti.com/codegen/esd/cgt_public_sw/PRU/2.3.3/ti_cgt_pru_2.3.3_armlinuxa8hf_busybox_installer.sh

@@ -27,10 +27,11 @@ make
 ## config the pin as PRU output
 config-pin P1_36 pruout
 
-## load
+## load into PRU0
 cp gen/PRU_gpioToggle.out /lib/firmware
 echo "PRU_gpioToggle.out" > /sys/class/remoteproc/remoteproc1/firmware
 echo "start" > /sys/class/remoteproc/remoteproc1/state
+## to stop the PRU0
 echo "stop" > /sys/class/remoteproc/remoteproc1/state
 
 ## check
